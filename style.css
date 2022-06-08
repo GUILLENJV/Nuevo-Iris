@@ -1,0 +1,27 @@
+h1{
+    font-size: 30;
+    color:blueviolet;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 20;
+}
+
+body {
+    background-color: black;
+    color:white;
+    display: grid;
+    place-items:center;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+input{
+    color:blue;
+}
+
+type{
+    color:aqua;
+}
