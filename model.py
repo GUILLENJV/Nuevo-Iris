@@ -13,7 +13,7 @@ clf = RandomForestClassifier()
 print(clf.fit(X_train, y_train).score(X_test, y_test))
 
 filepath = 'model.pkl'
-#pickle.dump(clf, open(filepath, 'wb'))
+pickle.dump(clf, open(filepath, 'wb'))
 
 loaded_model = pickle.load(open(filepath, 'rb'))
 result = loaded_model.score(X_test, y_test)
